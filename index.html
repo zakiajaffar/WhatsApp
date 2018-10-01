@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    ></meta>
+
+    <title>Whatsapp Project</title>
+
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous"
+    ></link>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans"
+        rel="stylesheet"
+    ></link>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    ></meta>
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        media="screen"
+        href="style.css"
+    ></link>
+
+    <script src="script.js"></script>
+</head>
+
+<body onload="initialize()">
+
+
+    <h1 class="whatsapp">WhatsApp   <i class="fab fa-whatsapp"></i></h1>
+   
+    <div class="main-container">
+        <div
+            class="chats-list"
+            style="overflow: scroll"
+        ></div>
+
+        <div class="chat">
+            <h4>
+                Please choose a contact to view their details
+            </h4>
+
+            <div
+                class="chat-detail"
+                style="display: none"
+            >
+                <div class="contact-photo"></div>
+                <h2 class="contact-name"></h2>
+                <p class="contact-number"></p>
+                <p class="contact-email"></p>
+                <p class="contact-message"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
